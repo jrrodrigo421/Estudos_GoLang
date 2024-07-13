@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("hello word")
+
+	var name string = "Rodrigo"
+	var numero float32 = 11515515151515115151
+	var numero2 float64 = 11515515151515115151
+	var numero3 int = 1
+
+	println(numero)
+	fmt.Println("hello word", name, "\n", numero, "\n", numero2, "\n", numero3)
 }
