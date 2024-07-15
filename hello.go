@@ -15,5 +15,6 @@ func main() {
 
 	var opcao int
 	fmt.Scanf("%d", &opcao)
-	print("A opção foi: ", opcao)
+	print("A opção foi: ", opcao, "\n")
+	print("Endereço da memória ", &opcao)
 }
